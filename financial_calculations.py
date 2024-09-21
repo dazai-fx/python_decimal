@@ -9,7 +9,6 @@ quantity = Decimal('3')
 total_price = price * quantity
 tax = total_price * tax_rate
 total_with_tax = total_price + tax
-
 print(f"Total price (with tax): {total_with_tax}")
 
 # Without using Decimal
